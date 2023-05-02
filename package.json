@@ -1,0 +1,31 @@
+{
+  "name": "nmicro-server",
+  "version": "1.0.0",
+  "description": "Server implementation for nmicro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinujd/nmicro-server.git"
+  },
+  "keywords": [
+    "nmicro",
+    "nmicro-server",
+    "express"
+  ],
+  "author": "Jinu Joseph Daniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jinujd/nmicro-server/issues"
+  },
+  "homepage": "https://github.com/jinujd/nmicro-server#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "nmicro-router": "^1.0.1"
+  }
+}
