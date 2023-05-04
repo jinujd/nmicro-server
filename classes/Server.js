@@ -20,9 +20,15 @@ export class Server {
         options = options instanceof ServerOptions? options: new ServerOptions(options)
         this.init(options)
     }
+    /**
+     * @type [Router]
+     */
     getRouters() {
         return this.routers
     } 
+    /**
+     * @type Router
+     */
     getRouter(index = 0) {
         return this.routers[index]
     } 
